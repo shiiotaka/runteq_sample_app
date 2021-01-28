@@ -42,7 +42,7 @@ class PostsController < ApplicationController
   # DELETE /posts/1
   def destroy
     @post.destroy
-    redirect_to posts_url, notice: '投稿の削除が完了しました'
+    redirect_to posts_url, notice: '投稿の削除が完了'
   end
 
   private
